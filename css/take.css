@@ -1,0 +1,424 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a,a:hover{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,span,div{
+  padding: 0;
+  margin: 0;
+}
+body{
+    /* 
+      font-family: 'Open Sans', sans-serif;
+       
+    */
+}
+/* banner  part css start*/
+#banner{
+  background: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+.banner_content{
+  margin-top: 272px;
+}
+.banner_content h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+  padding-bottom: 15px;
+}
+.banner_content p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  padding-right: 90px;
+}
+.iphone{
+  margin-left: 244px;
+  margin-top: 196px;
+}
+.iphone img {
+  height: 677px;
+  width: 269px;
+}
+/* banner  part css end*/
+
+/*some part css start*/
+.some_head{
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.some_head h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+.some_content p{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   padding-right: 50px;
+}
+/*some part css end*/
+
+/*design part css start*/
+#design{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.design_content{
+  background-color: #f5989d;
+  padding: 30px 30px;
+  position: relative;
+  color: white;
+}
+.design_content h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.design_content p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   padding-bottom: 20px;
+}
+.design_content h3{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+}
+.design_content a{
+  color: white;
+  position: absolute;
+  bottom: 11%;
+  left: 35%;
+}
+
+.design_content_two{
+  background-color: #615f7d;
+  padding: 30px 30px;
+  position: relative;
+  color: white;
+  margin-left: -24px;
+}
+.design_content_two h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.design_content_two p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   padding-bottom: 20px;
+  
+}
+.design_content_two h3{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+}
+.design_content_two a{
+  color: white;
+  position: absolute;
+  bottom: 11%;
+  left: 35%;
+}
+
+.design_content_three{
+  background: url(../img/grallery1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 30px;
+  position: relative;
+  color: white;
+  margin-left: -24px;
+}
+.design_content_three h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.design_content_three p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   padding-bottom: 20px;
+   margin-left: -3px;
+}
+.design_content_three h3{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+}
+.design_content_three a{
+  color: white;
+  position: absolute;
+  bottom: 11%;
+  left: 35%;
+}
+
+
+.design_content_four{
+  background: url(../img/grallery3.jpg);
+/*  background-repeat: no-repeat;*/
+  background-position: center;
+  background-size: cover;
+  padding: 30px 30px;
+  position: relative;
+  color: white;
+/*  margin-left: -163px;*/
+}
+.design_content_four h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.design_content_four p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   padding:0 140px 20px 0;
+}
+.design_content_four h3{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+}
+.design_content_four a{
+  color: white;
+  position: absolute;
+  bottom: 12%;
+ left: 18%;
+}
+
+
+.design_content_five{
+  background-color: #82ca9c;
+  padding:20px 30px 20px 30px;
+  position: relative;
+  color: white;
+  margin-left: -24px;
+}
+.design_content_five h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.design_content_five p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   padding-bottom: 20px;
+}
+.design_content_five h3{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+}
+.design_content_five a{
+  color: white;
+  position: absolute;
+  bottom: 7%;
+  left: 35%;
+}
+
+/*design part css end*/
+
+
+/*look part css start*/
+.look_h h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.look_content h5{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+
+.look_content p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+
+/*look part css end*/
+
+
+/*power part css start*/
+#power{
+  background: url(../img/grallery4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+}
+.power_img{
+  color: white;
+  position: relative;
+}
+.power_img h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 60px;
+   font-weight: 300;
+}
+.power_img p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   padding: 15px 860px 0 0;
+}
+.power_img h3{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   padding-top: 15px;
+}
+.power_img a{
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: white;
+position: absolute;
+bottom: -1%;
+left: 11%;
+}
+/*power part css end*/
+
+/* reason part css start*/
+#reason{
+/*  margin: 60px 0;*/
+  background-color: #82ca9c;
+  padding: 70px 0;
+}
+ .reason_h h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.reason_content h5{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   padding: 20px 0;
+}
+
+.reason_content p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   padding-bottom: 10px;
+}
+/* reason part css end*/
+
+
+/* buy part css start*/
+#buy{
+  background-color: #f6f7fa;
+}
+.buy_content{
+  margin: 60px 0;
+}
+.buy_content button{
+ padding: 5px 20px;
+ border: none;
+}
+.buy_content h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+   padding-top: 10px;
+}
+.buy_content p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   padding-right: 200px;
+}
+.buy_content a{
+  height: 20px;
+  width: 40px;
+  padding: 5px 15px;
+  background-color: #82ca9c;
+  border: 5px;
+  color: white;
+}
+.borhan{
+  background-color: #ffffff;
+ padding: 20px 0 27px 25px;
+}
+.borhan button{
+  background-color: #bd8cbf;
+}
+/* buy part css end*/
+
+/* footer part css start*/
+footer{
+  background-color: #192431;
+  color: white;
+  padding: 60px 0;
+}
+.footer_content h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.footer_content p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   padding-right: 90px;
+}
+.footer_button h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.footer_button p{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   padding-right: 90px;
+   padding-top: 10px;
+}
+.f_content{
+  margin-top: 30px;
+}
+.f_content h4{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   padding-bottom: 20px;
+}
+.f_content ul li{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+}
+/* footer part css end*/
